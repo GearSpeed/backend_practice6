@@ -111,6 +111,8 @@ function main() {
       break;
     case "reset":
       reset();
+      console.log("Koders database reseted");
+      ls();
       break;
     default:
       console.error("Invalid command: ", command);
